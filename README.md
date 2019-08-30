@@ -18,6 +18,8 @@
 
 在电源稳定和足够的前提下可以实现1%~5%的速度精度。
 
+原理图：https://github.com/suggestawy/Pictures/blob/master/%E5%8E%9F%E7%90%86%E5%9B%BE.png
+
 
 代码说明：mian.c中包含外部中断和主函数。display.c中包含着显示占空比和转速的显示函数。motor.c中存在着电机动作控制函数。keyscan.c包含按键扫描函数。
 speed.h 则是包含着所有的头文件以及参数的定义
